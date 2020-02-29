@@ -34,6 +34,6 @@ To load the npy format data,use  np.load('savedfile name.npy',allow_pickle=True)
 
 
 ### Author
-Zhang Fei - A0117981X
+
 
 ##Thank you!
