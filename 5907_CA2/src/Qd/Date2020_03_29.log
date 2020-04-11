@@ -1,0 +1,73 @@
+***********************Date2020_03_29***********************
+For Eigen Vector in Dimensions 30, 35, 40, 50, 60, 80, 100, 150
+The corresponding accuracies in   Linear Regression  model  are     '83.34%', '84.1%', '84.9%', '85.47%', '85.82%', '86.28%', '86.23%', '86.18%'
+The corresponding accuracies in Polynomial Regression model are '95.94%', '96.32%', '96.67%', '97.29%', '97.35%', '97.57%'
+The accuracies in Ridge model are: '95.96%', '95.94%', '95.89%', '95.76%', '95.67%', '94.83%', '94.32%'
+Start to train MLP classifier
+train completed, time:236.02359056472778
+start to predict and classify:
+Total num: 10000  Wrong num: 232 MLP  CorrectRate: 97.68 %
+start to train KNN classifier with K value  1
+completed in time:0.2819986343383789
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 282 KNN  CorrectRate: 97.18% %
+start to train KNN classifier with K value  3
+completed in time:0.3146786689758301
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 259 KNN  CorrectRate: 97.41% %
+start to train KNN classifier with K value  5
+completed in time:0.30325889587402344
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 245 KNN  CorrectRate: 97.55% %
+The accuracies in KNN are: '97.18%', '97.41%', '97.55%'
+start to train SVM Classifier using RBF kernel with penalty  0.5
+completed in time:66.36791229248047
+start to predict and classify:
+Total num: 10000  Wrong num: 219 SVM  CorrectRate: 97.81% %
+start to train SVM Classifier using RBF kernel with penalty  1
+completed in time:56.730390787124634
+start to predict and classify:
+Total num: 10000  Wrong num: 197 SVM  CorrectRate: 98.03% %
+The accuracies in SVM are: '97.81%', '98.03%'
+start to train Logistic Regression Classifier
+completed in time:3.5349252223968506
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 1126 Logistic Regression  CorrectRate: 88.74 %
+Start to train MLP classifier
+train completed, time:93.09180188179016
+start to predict and classify:
+Total num: 10000  Wrong num: 193 MLP  CorrectRate: 98.07000000000001 %
+start to train KNN classifier with K value  1
+completed in time:5.660447597503662
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 303 KNN  CorrectRate: 96.97% %
+start to train KNN classifier with K value  3
+completed in time:5.779801845550537
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 259 KNN  CorrectRate: 97.41% %
+start to train KNN classifier with K value  5
+completed in time:5.2220118045806885
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 265 KNN  CorrectRate: 97.35% %
+The accuracies in KNN are: '96.97%', '97.41%', '97.35%'
+start to train SVM Classifier using RBF kernel with penalty  0.5
+completed in time:846.3412411212921
+start to predict and classify:
+Total num: 10000  Wrong num: 196 SVM  CorrectRate: 98.04% %
+start to train SVM Classifier using RBF kernel with penalty  1
+completed in time:733.4613389968872
+start to predict and classify:
+Total num: 10000  Wrong num: 169 SVM  CorrectRate: 98.31% %
+The accuracies in SVM are: '98.04%', '98.31%'
+start to train Logistic Regression Classifier
+completed in time:161.49546933174133
+start to predict and classify:
+10000
+Total num: 10000  Wrong num: 206 Logistic Regression  CorrectRate: 97.94 %
